@@ -15,7 +15,7 @@
         <!-- Entidades -->
         <class>ar.edu.utnfrc.k5a.recuperatorio.entities.Tarjeta</class>
         <class>ar.edu.utnfrc.k5a.recuperatorio.entities.Consumo</class>
-        <class>ar.edu.utnfrc.k5a.recuperatorio.entities.Moneda</class>
+        <class>ar.edu.utnfrc.k5a.recuperatorio.entities.Cotizacion</class>
         <class>ar.edu.utnfrc.k5a.recuperatorio.entities.Liquidacion</class>
 
         <properties>

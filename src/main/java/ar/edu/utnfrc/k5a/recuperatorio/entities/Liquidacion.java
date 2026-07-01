@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Table(name = "LIQUIDACION")
+@Table(name = "LIQUIDACIONES")
 @Data @NoArgsConstructor @AllArgsConstructor @Builder
 @EqualsAndHashCode(of = "id")
 public class Liquidacion {
@@ -13,7 +13,7 @@ public class Liquidacion {
     @Column(name = "ID")
     private int id;
 
-    @OneToOne(fetch = FetchType.LAZY, optional = false)
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "ID_TARJETA", nullable = false)
     private Tarjeta tarjeta;
 

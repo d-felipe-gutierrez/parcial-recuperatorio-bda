@@ -4,7 +4,7 @@ import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
-public class Jpautil {
+public class JpaUtil {
     private static final EntityManagerFactory emf =
             Persistence.createEntityManagerFactory("RecuperatorioPU");
 
@@ -16,7 +16,5 @@ public class Jpautil {
         return emf;
     }
 
-    public static void clise() {
-        emf.close();
-    }
+    public static void close() { emf.close(); }
 }
