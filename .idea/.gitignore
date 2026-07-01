@@ -1,10 +1,56 @@
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+
 # Default ignored files
 /shelf/
 /workspace.xml
+
 # Editor-based HTTP Client requests
 /httpRequests/
+
 # Ignored default folder with query files
 /queries/
-# Datasource local storage ignored files
+
+# Datasource local storage
 /dataSources/
 /dataSources.local.xml
+
+# =========================
+# Maven
+# =========================
+target/
+
+# Maven Wrapper (opcional)
+!.mvn/wrapper/maven-wrapper.jar
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# H2 Database
+# =========================
+database/
+*.mv.db
+*.trace.db
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Java
+# =========================
+*.class

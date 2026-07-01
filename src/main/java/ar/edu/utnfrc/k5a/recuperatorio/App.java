@@ -113,19 +113,19 @@ public class App {
                     "BUSCAR TABLAS DE LOS CONSUMOS DE UNA TARJETA POR ANIO Y MES" +
                     "----------------------------------------------------");
 
-            System.out.println(consumoDAO.findByTarjetaIdAnioMes(1, (short) 2026,(short) 5));
+            System.out.println(consumoDAO.findByTarjetaIdAnioMes(1, 2026,(short) 5));
 
             System.out.println("----------------------------------------------------" +
                     "BUSCAR TABLAS DE TARJETAS SIN LIQUIDACIONES EN UN ANIO Y MES" +
                     "----------------------------------------------------");
 
-            System.out.println(tarjetaDAO.findByNotId((short) 2026,(short) 4));
+            System.out.println(tarjetaDAO.findByNotId(2026,(short) 4));
 
             System.out.println("----------------------------------------------------" +
                     "BUSCAR TABLAS DE LAS LIQUIDACIONES DE UNA TARJETA, ANIO Y MES ESPECIFICOS" +
                     "----------------------------------------------------");
 
-            System.out.println(liquidacionDAO.findByTarjetaIdAnioMes(1, (short) 2026,(short) 5));
+            System.out.println(liquidacionDAO.findByTarjetaIdAnioMes(1, 2026,(short) 5));
         } finally {
             JpaUtil.close();
         }

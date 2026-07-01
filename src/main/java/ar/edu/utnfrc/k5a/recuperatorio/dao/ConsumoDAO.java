@@ -51,7 +51,7 @@ public class ConsumoDAO extends GenericDAO<Consumo, Integer> {
         }
     }
 
-    public List<Consumo> findByTarjetaIdAnioMes(int tarjetaId, short anio, short mes) {
+    public List<Consumo> findByTarjetaIdAnioMes(int tarjetaId, int anio, short mes) {
         EntityManager em = JpaUtil.getEntityManager();
 
         try {

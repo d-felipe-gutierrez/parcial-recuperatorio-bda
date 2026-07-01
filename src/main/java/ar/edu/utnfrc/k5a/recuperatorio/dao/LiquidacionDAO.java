@@ -53,7 +53,7 @@ public class LiquidacionDAO extends GenericDAO<Liquidacion, Integer> {
         }
     }
 
-    public List<Integer> findTarjetaIdByAnioMes(short anio, short mes) {
+    public List<Integer> findTarjetaIdByAnioMes(int anio, short mes) {
         EntityManager em = JpaUtil.getEntityManager();
 
         try {
@@ -72,7 +72,7 @@ public class LiquidacionDAO extends GenericDAO<Liquidacion, Integer> {
 
     }
 
-    public List<Liquidacion> findByTarjetaIdAnioMes(int tarjetaId, short anio, short mes) {
+    public List<Liquidacion> findByTarjetaIdAnioMes(int tarjetaId, int anio, short mes) {
         EntityManager em = JpaUtil.getEntityManager();
 
         try {

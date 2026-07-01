@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="ar.edu.utnfrc.k5a.recuperatorio.dao.CotizacionDAOTest" time="0.02" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Estudio\3. BDA\Recuperatorio_2026_Preenunciado\parcial-recuperatorio-bda\target\test-classes;E:\Estudio\3. BDA\Recuperatorio_2026_Preenunciado\parcial-recuperatorio-bda\target\classes;C:\Users\feli2\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\feli2\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\feli2\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\feli2\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\feli2\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\feli2\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\feli2\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\feli2\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\feli2\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\feli2\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\feli2\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\feli2\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\feli2\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\feli2\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\feli2\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\feli2\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\feli2\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\feli2\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\feli2\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\feli2\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\feli2\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\feli2\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\feli2\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\feli2\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Buenos_Aires"/>
+    <property name="user.country.format" value="US"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="MX"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\feli2\AppData\Local\Temp\surefire15553253386571041359\surefirebooter-20260701184417902_3.jar C:\Users\feli2\AppData\Local\Temp\surefire15553253386571041359 2026-07-01T18-44-17_723-jvmRun1 surefire-20260701184417902_1tmp surefire_0-20260701184417902_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Estudio\3. BDA\Recuperatorio_2026_Preenunciado\parcial-recuperatorio-bda\target\test-classes;E:\Estudio\3. BDA\Recuperatorio_2026_Preenunciado\parcial-recuperatorio-bda\target\classes;C:\Users\feli2\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\feli2\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\feli2\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\feli2\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\feli2\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;C:\Users\feli2\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\feli2\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\feli2\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\feli2\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\feli2\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar;C:\Users\feli2\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\feli2\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\feli2\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\feli2\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\feli2\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar;C:\Users\feli2\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.0\jakarta.activation-api-2.1.0.jar;C:\Users\feli2\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar;C:\Users\feli2\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar;C:\Users\feli2\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar;C:\Users\feli2\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar;C:\Users\feli2\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar;C:\Users\feli2\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\feli2\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\feli2\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\feli2"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\Estudio\3. BDA\Recuperatorio_2026_Preenunciado\parcial-recuperatorio-bda"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\feli2\AppData\Local\Temp\surefire15553253386571041359\surefirebooter-20260701184417902_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.19+10"/>
+    <property name="user.name" value="feli2"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.19+10"/>
+    <property name="localRepository" value="C:\Users\feli2\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\feli2\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.19"/>
+    <property name="user.dir" value="E:\Estudio\3. BDA\Recuperatorio_2026_Preenunciado\parcial-recuperatorio-bda"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.language.format" value="en"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-17.0.19.10-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\feli2\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\dotnet\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;E:\Programas\Git\cmd;E:\Programas\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;%M2_HOME$\bin;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\feli2\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\feli2\AppData\Local\Programs\Python\Python311\;C:\Users\feli2\AppData\Local\Microsoft\WindowsApps;C:\Users\feli2\AppData\Local\Programs\Microsoft VS Code\bin;E:\Programas\PyCharm Community Edition 2024.3.1.1\bin;;E:\Programas\PyCharm 2024.3.1.1\bin;;C:\Users\feli2\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2026.1\bin;C:\Users\feli2\AppData\Local\GitHubDesktop\bin;E:\Programas\apache-maven-3.9.14\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.19+10"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="findAll_deberiaTraerLasCotizacionesSemilla" classname="ar.edu.utnfrc.k5a.recuperatorio.dao.CotizacionDAOTest" time="0.004">
+    <system-out><![CDATA[&amp#27;[35m[Hibernate]&amp#27;[0m 
+    /* &amp#27;[34mselect&amp#27;[0m
+        e 
+    &amp#27;[34mfrom&amp#27;[0m
+        Cotizacion e */ &amp#27;[34mselect&amp#27;[0m
+            c1_0.MONEDA,
+            c1_0.TASA_CAMBIO 
+        &amp#27;[34mfrom&amp#27;[0m
+            COTIZACIONES c1_0
+]]></system-out>
+  </testcase>
+  <testcase name="findById_inexistente_deberiaEstarVacio" classname="ar.edu.utnfrc.k5a.recuperatorio.dao.CotizacionDAOTest" time="0.002">
+    <system-out><![CDATA[&amp#27;[35m[Hibernate]&amp#27;[0m 
+    &amp#27;[34mselect&amp#27;[0m
+        c1_0.MONEDA,
+        c1_0.TASA_CAMBIO 
+    &amp#27;[34mfrom&amp#27;[0m
+        COTIZACIONES c1_0 
+    &amp#27;[34mwhere&amp#27;[0m
+        c1_0.MONEDA=?
+]]></system-out>
+  </testcase>
+  <testcase name="findById_existente_deberiaTraerLaTasaCorrecta" classname="ar.edu.utnfrc.k5a.recuperatorio.dao.CotizacionDAOTest" time="0.002">
+    <system-out><![CDATA[&amp#27;[35m[Hibernate]&amp#27;[0m 
+    &amp#27;[34mselect&amp#27;[0m
+        c1_0.MONEDA,
+        c1_0.TASA_CAMBIO 
+    &amp#27;[34mfrom&amp#27;[0m
+        COTIZACIONES c1_0 
+    &amp#27;[34mwhere&amp#27;[0m
+        c1_0.MONEDA=?
+]]></system-out>
+  </testcase>
+  <testcase name="crud_deberiaCrearActualizarYEliminar" classname="ar.edu.utnfrc.k5a.recuperatorio.dao.CotizacionDAOTest" time="0.01">
+    <system-out><![CDATA[&amp#27;[35m[Hibernate]&amp#27;[0m 
+    /* &amp#27;[34minsert&amp#27;[0m &amp#27;[34mfor&amp#27;[0m
+        ar.edu.utnfrc.k5a.recuperatorio.entities.Cotizacion */&amp#27;[34minsert&amp#27;[0m 
+    &amp#27;[34minto&amp#27;[0m
+        COTIZACIONES (TASA_CAMBIO, MONEDA) 
+    &amp#27;[34mvalues&amp#27;[0m
+        (?, ?)
+&amp#27;[35m[Hibernate]&amp#27;[0m 
+    &amp#27;[34mselect&amp#27;[0m
+        c1_0.MONEDA,
+        c1_0.TASA_CAMBIO 
+    &amp#27;[34mfrom&amp#27;[0m
+        COTIZACIONES c1_0 
+    &amp#27;[34mwhere&amp#27;[0m
+        c1_0.MONEDA=?
+&amp#27;[35m[Hibernate]&amp#27;[0m 
+    &amp#27;[34mselect&amp#27;[0m
+        c1_0.MONEDA,
+        c1_0.TASA_CAMBIO 
+    &amp#27;[34mfrom&amp#27;[0m
+        COTIZACIONES c1_0 
+    &amp#27;[34mwhere&amp#27;[0m
+        c1_0.MONEDA=?
+&amp#27;[35m[Hibernate]&amp#27;[0m 
+    /* &amp#27;[34mupdate&amp#27;[0m
+        &amp#27;[34mfor&amp#27;[0m ar.edu.utnfrc.k5a.recuperatorio.entities.Cotizacion */&amp#27;[34mupdate&amp#27;[0m COTIZACIONES 
+    &amp#27;[34mset&amp#27;[0m
+        TASA_CAMBIO=? 
+    &amp#27;[34mwhere&amp#27;[0m
+        MONEDA=?
+&amp#27;[35m[Hibernate]&amp#27;[0m 
+    &amp#27;[34mselect&amp#27;[0m
+        c1_0.MONEDA,
+        c1_0.TASA_CAMBIO 
+    &amp#27;[34mfrom&amp#27;[0m
+        COTIZACIONES c1_0 
+    &amp#27;[34mwhere&amp#27;[0m
+        c1_0.MONEDA=?
+&amp#27;[35m[Hibernate]&amp#27;[0m 
+    &amp#27;[34mselect&amp#27;[0m
+        c1_0.MONEDA,
+        c1_0.TASA_CAMBIO 
+    &amp#27;[34mfrom&amp#27;[0m
+        COTIZACIONES c1_0 
+    &amp#27;[34mwhere&amp#27;[0m
+        c1_0.MONEDA=?
+&amp#27;[35m[Hibernate]&amp#27;[0m 
+    /* &amp#27;[34mdelete&amp#27;[0m &amp#27;[34mfor&amp#27;[0m ar.edu.utnfrc.k5a.recuperatorio.entities.Cotizacion */&amp#27;[34mdelete&amp#27;[0m 
+    &amp#27;[34mfrom&amp#27;[0m
+        COTIZACIONES 
+    &amp#27;[34mwhere&amp#27;[0m
+        MONEDA=?
+&amp#27;[35m[Hibernate]&amp#27;[0m 
+    &amp#27;[34mselect&amp#27;[0m
+        c1_0.MONEDA,
+        c1_0.TASA_CAMBIO 
+    &amp#27;[34mfrom&amp#27;[0m
+        COTIZACIONES c1_0 
+    &amp#27;[34mwhere&amp#27;[0m
+        c1_0.MONEDA=?
+]]></system-out>
+  </testcase>
+</testsuite>

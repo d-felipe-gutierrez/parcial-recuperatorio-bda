@@ -22,7 +22,7 @@ public class Liquidacion {
     private short mes;
 
     @Column(name = "ANIO")
-    private short anio;
+    private int anio;
 
     @Column(name = "TOTAL_A_PAGAR")
     private double totalAPagar;

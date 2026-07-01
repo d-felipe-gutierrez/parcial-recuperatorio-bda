@@ -10,7 +10,7 @@ import java.util.List;
 public class TarjetaDAO extends GenericDAO<Tarjeta, Integer> {
     public TarjetaDAO() { super(Tarjeta.class); }
 
-    public List<Tarjeta> findByNotId(short anio, short mes) {
+    public List<Tarjeta> findByNotId(int anio, short mes) {
         EntityManager em = JpaUtil.getEntityManager();
         LiquidacionDAO liquidacionDAO = new LiquidacionDAO();
         List<Integer> ids = liquidacionDAO.findTarjetaIdByAnioMes(anio, mes);

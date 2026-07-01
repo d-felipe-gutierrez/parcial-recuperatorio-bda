@@ -1,0 +1,6 @@
+ar\edu\utnfrc\k5a\recuperatorio\dao\ConsumoDAOTest.class
+ar\edu\utnfrc\k5a\recuperatorio\dao\LiquidacionDAOTest.class
+ar\edu\utnfrc\k5a\recuperatorio\dao\TarjetaDAOTest.class
+ar\edu\utnfrc\k5a\recuperatorio\dao\BaseJpaTest.class
+ar\edu\utnfrc\k5a\recuperatorio\AppTest.class
+ar\edu\utnfrc\k5a\recuperatorio\dao\CotizacionDAOTest.class
