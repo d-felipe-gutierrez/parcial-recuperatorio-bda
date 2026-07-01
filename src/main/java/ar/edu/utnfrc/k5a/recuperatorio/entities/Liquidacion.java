@@ -15,6 +15,7 @@ public class Liquidacion {
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "ID_TARJETA", nullable = false)
+    @ToString.Exclude
     private Tarjeta tarjeta;
 
     @Column(name = "MES")

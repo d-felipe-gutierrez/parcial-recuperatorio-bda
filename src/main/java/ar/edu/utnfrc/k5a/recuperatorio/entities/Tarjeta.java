@@ -14,7 +14,7 @@ public class Tarjeta {
     private int id;
 
     @Column(name= "NUMERO", nullable = false)
-    private long numero;
+    private String numero;
 
     @Column(name = "TITULAR", length = 40, nullable = false)
     private String titular;
